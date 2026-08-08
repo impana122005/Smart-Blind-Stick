@@ -43,6 +43,10 @@ Based on the detected situation, the Arduino provides different buzzer sounds an
 
 [Watch the Smart Blind Stick Demo](https://drive.google.com/file/d/1pSB420FKAlmieqqvQeBTWvb0KXS73aer/view?usp=drivesdk)
 
+## Project Outcome
+
+The Smart Blind Stick prototype was successfully developed and tested for obstacle and water detection. The project was also selected for presentation at the college expo.
+
 ## Future Scope
 
 The project can be further enhanced by adding GPS, voice assistance, GSM connectivity, and IoT-based monitoring.
