@@ -1,6 +1,6 @@
 # IoT-Based Smart Blind Stick
 
-An IoT-based Smart Blind Stick designed to assist visually impaired people by detecting obstacles and water using sensors and providing alerts through sound and vibration.
+An IoT-based Smart Blind Stick designed to assist visually impaired people through real-time obstacle and water detection, with different buzzer sounds and vibration alerts for different situations, improving safety and mobility.
 
 ## Components Used
 
@@ -15,29 +15,34 @@ An IoT-based Smart Blind Stick designed to assist visually impaired people by de
 
 ## Features
 
-- Obstacle detection using an ultrasonic sensor
-- Water detection using a water sensor
-- Buzzer alert for detected obstacles
-- Vibration alert for detected obstacles
-- Different alerts for different situations
+- Real-time obstacle detection
+- Water detection
+- Different buzzer sounds for different situations
+- Vibration alerts for obstacle detection
+- Helps improve safety and mobility
 
 ## How It Works
 
-The ultrasonic sensor detects obstacles in front of the user. When an obstacle is detected, the system provides an alert using the buzzer and vibration motor.
+The ultrasonic sensor detects obstacles in front of the user, while the water sensor detects water hazards.
 
-The water sensor detects the presence of water and provides an alert to help the user avoid wet areas.
+Based on the detected situation, the Arduino provides different buzzer sounds and vibration alerts to notify the user.
 
-## Project Hardware
+## Connection Diagram
 
-The system is built using an Arduino UNO along with sensors, a buzzer, vibration motor, battery, breadboard, and jumper wires.
+![Connection Diagram](Smart_Blind_Stick_Connection_Diagram.jpeg)
 
-## Applications
+## Pin Configuration
 
-- Assistance for visually impaired people
-- Obstacle detection
-- Water hazard detection
-- Smart assistive devices
+![Pin Configuration](Smart_Blind_Stick_Pin_Configuration.jpeg)
+
+## Project Prototype
+
+![Smart Blind Stick Project](Smart_Blind_Stick_Project.jpeg)
+
+## Demo Video
+
+[Watch the Smart Blind Stick Demo](https://drive.google.com/file/d/1pSB420FKAlmieqqvQeBTWvb0KXS73aer/view?usp=drivesdk)
 
 ## Future Scope
 
-The project can be further improved by adding GPS, voice alerts, GSM connectivity, and IoT-based monitoring.
+The project can be further enhanced by adding GPS, voice assistance, GSM connectivity, and IoT-based monitoring.
